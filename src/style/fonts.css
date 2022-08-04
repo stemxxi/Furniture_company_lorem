@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Circular-Black';
+    src: url('../fonts/Circular/Circular-Black.ttf');
+}
+@font-face {
+    font-family: 'Circular-Book';
+    src: url('../fonts/Circular/Circular-Book.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url('../fonts/gilroy/Gilroy-Black.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/gilroy/Gilroy-Bold.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/gilroy/Gilroy-Medium.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/gilroy/Gilroy-Regular.ttf');
+}
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/gilroy/Gilroy-SemiBold.ttf');
+}
+
+/* INTER */
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('../fonts/Inter/Inter-Light.ttf');
+}
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../fonts/Inter/Inter-Medium.ttf');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('../fonts/Inter/Inter-SemiBold.ttf');
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-brands-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-light-300.woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-regular-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-duotone-900.woff2');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-solid-900.woff2');
+    font-weight: 900;
+}
+
+
+.fa {
+    display: inline-block;
+    font-family: 'Font Awesome';
+    font-style: normal;
+}
+
