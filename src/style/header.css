@@ -2,10 +2,7 @@
 
 .header__prenav{
     background: var(--white);
-    border: 1px solid #EFEFEF;
-    padding-bottom: 17px;
-    padding-left: 10px;
-    padding-right: 10px;
+   
 }
 
 .header__prenav-content{
@@ -13,6 +10,12 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 16px;
+}
+
+
+.header__prenav-border{
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 17px;
 }
 
 .header__prenav-description{
@@ -27,7 +30,7 @@
 
 .salon-location{
     border-bottom: 1px solid blue;
-    width: 52`%;
+    width: 52%;
     display: flex;
     justify-content: flex-start;
 }
@@ -77,3 +80,302 @@
 }
 
 /* HEADER PRENAV END */
+
+/* .has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: #ccc;
+}
+
+.has-search .form-control {
+    padding: 8px 188px 8px 17px;
+    border: 1px solid #004583;
+    border-radius: 47px;
+}
+
+.form-control::placeholder{
+    color: #004583;
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    font-family: var(--Inter-Regular);
+}
+
+.icon-search::after{
+    content: '\f002';
+    font-family: 'Font Awesome';
+} */
+
+
+.header__nav-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header__nav-list{
+    display: flex;
+    justify-items: center;
+}
+.header__nav-link{
+    /* margin-right: 63px; */
+    padding-right: 63px;
+   
+}
+
+.header__nav-item{
+    font-size: 16px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: var(--black);
+    font-family: var(--Inter-Regular);
+    transition: 0.5s;
+}
+
+.header__nav-item:hover{
+    color: var(--red);
+    transition: 0.5s;
+}
+
+  .input-grey-rounded{
+    font-size: 16px;
+    line-height: 1.5;
+    background: #E9EEF0;
+    border: 1px solid #004583;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='5' height='5' viewBox='0 0 21 21'><path fill='%238C92A0' d='M11.44 10.73l4.41 4.42a.5.5 0 1 1-.7.7l-4.42-4.41a6.5 6.5 0 1 1 .7-.7v-.01zM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: 355px 10px;
+    background-size: 20px 20px;
+    border-radius: 47px;
+    padding: 8px 50px 8px 17px;
+    line-height: 127.47%;
+    font-family: var(--Inter-Regular);
+    letter-spacing: -0.5px;
+    width: 385px;
+    
+  } 
+  
+  .input-grey-rounded::placeholder{
+    color: #004583 !important;
+    line-height: 127.47%;
+    /* padding:  ; */
+  }
+  
+  .input-grey-rounded:focus {
+    outline: none;
+    background-color: #FFF;
+    border: 1px solid #84A2FA;
+  }
+  
+
+
+  /* HEADER MAIN */
+
+
+.header{
+    background-image: url('../img/header/header-bg4x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 469px;
+}
+
+
+.header__main-content{
+    padding-top: 70px;
+  
+}
+
+
+
+
+
+  .header__main-title{
+    font-size: 38px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--Gilroy-Bold);
+    max-width: 412px;
+    width: 100%;
+    margin-bottom: 22px;
+  }
+
+  .header__main-description{
+    font-size: 18px;
+    line-height: 127.47%;
+    letter-spacing: 1px;
+    color: var(--white);
+    font-family: var(--Inter-Regular);
+    font-weight: 700;
+    max-width: 457px;
+    width: 100%;
+  }
+  
+  .header__main-subdescription{
+    margin-top: 20px !important;
+    font-size: 18px;
+    line-height: 127.47%;
+    letter-spacing: -0.5px;
+    color: var(--white);
+    font-family: var(--Inter-Light);
+    max-width: 457px;
+    width: 100%;
+  }
+
+  .header__main-cards{
+    margin-top: 39px;
+}
+.header__card-img{
+    width: 55px;
+    height: 55px;
+}
+
+.header__card-imgs{
+    position: relative;
+    margin-right: 9px;
+}
+
+.header__card-subimg{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.header__card-title{
+    font-size: 21px;
+line-height: 127.47%;
+/* identical to box height, or 27px */
+letter-spacing: 0.8px;
+text-transform: uppercase;
+color: var(--white);
+font-family: var(--Gilroy-SemiBold);
+}
+.m2{
+    font-size: 12px;
+    
+}
+
+.header__card-description{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    font-family: var(--Inter-Light) !important;
+    max-width: 105px;
+    width: 100%;
+}
+
+.header__main-card{
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+}
+  
+.header__main-cards{
+    display: flex;
+    align-items: center;
+}
+
+.last-child{
+    max-width: 250px !important;
+    width: 100%;
+}
+
+/* HEADER__VECTOR-IMG */
+
+.header{
+    position: relative;
+}
+
+.header__vector-left{
+    position: absolute;
+    top: 50%;
+    margin-left: 24px;
+    transition: 1s;
+}
+
+.header__vector-left:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.vector__left-second{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+
+}
+
+/*  */
+
+.header__vector-right{
+    position: absolute;
+    top: 50% ;
+    right: 0;
+    margin-right: 24px;
+    transition: 1s;
+}
+
+.header__vector-right:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.vector__right-second{
+    position: absolute;
+    top: 18px;
+    left: 23px;
+
+}
+
+.basket-flex{
+    display: flex;
+    justify-content: flex-end;
+    transition: 1.5s;
+    
+}
+
+.header-basket{
+    display: inline-block;
+    position: relative;
+    top: -300px;
+    transition: 1.5s;
+    left: 0px;
+    
+}
+
+.header-basket:hover{
+    transform: translateX(-65px);
+    transition: 1.5s ;
+    left: 65px;
+}
+
+.basket{
+    background: #004583;
+    border: 1px solid #FFFFFF !important;
+    box-shadow: 0px 4px 38px #004583;
+    padding: 23px 70px 23px 28px;
+    border-radius: 50px 0px 0px 50px;
+    max-width: 100px;
+    width: 100%;
+    z-index: 1000;
+    transition: 1.5s;
+}
+
+.basket:hover{
+    padding-right: 150px;
+    transition: 1.5s;
+    
+}
+
+.basket-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -10px;
+}
