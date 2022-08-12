@@ -1,0 +1,86 @@
+.main__card-title{
+    font-size: 24px;
+    line-height: 127.47%;
+    /* identical to box height, or 31px */
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    font-family: var(--Gilroy-Bold);
+    color: var(--purple);
+}
+
+.main__card-description{
+    font-size: 16px;
+    line-height: 127.47%;
+    /* or 20px */
+    letter-spacing: -0.5px;
+    color: var(--purple);
+    font-family: var(--Inter-Regular);
+    max-width: 288px;
+    width: 100%;
+    padding: 7px 0px 18px 0px;
+}
+
+.main__card-link{
+    font-size: 16px;
+    line-height: 127.47%;
+    /* or 20px */
+    letter-spacing: -0.5px;
+    color: var(--Blue);
+    font-family: var(--Inter-Regular);
+    max-width: 278px;
+    width: 100%;
+
+}
+
+.main__card-price{
+    font-size: 16px;
+    line-height: 127.47%;
+    /* or 20px */
+    letter-spacing: -0.5px;
+    color: var(--purple);
+    font-family: var(--Inter-Regular);
+    max-width: 130px;
+    width: 100%;
+    padding: 18px 0px 23px 0px;
+}
+
+.main__vector-left{
+    position: relative;
+}
+
+.main__vector-second{
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+.main__content-card{
+    display: flex;
+    align-items: center;
+    
+}
+.main__card-content{
+    margin-left: 30px;
+    margin-right: 42px;
+    
+}
+
+.polygon{
+    position: relative;
+    left: 592px;
+    top: 713px;
+}
+.polygon1{
+    position: absolute;
+    bottom: 23px;
+    right: 675px;   
+}
+
+.main__content-cards{
+    display: flex;
+    justify-content: space-between !important;
+    /* flex-wrap: wrap; */
+}
+
+
+
